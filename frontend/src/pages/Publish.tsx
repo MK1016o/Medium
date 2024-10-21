@@ -8,6 +8,7 @@ export const Publish = () => {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
     const navigate = useNavigate();
+    // console.log(process.env.REACT_APP_BACKEND_URL);//printing it to console
 
     return <div>
         <Appbar />
